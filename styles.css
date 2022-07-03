@@ -1,0 +1,112 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-img {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.crop-img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.header-text {
+    background-color: #d8007a;
+    color: white;
+    padding: 2px 15px;
+    border-radius: 10px;
+}
+
+.description-text {
+    background-color: #03738e;
+    color: white;
+    padding: 2px 15px;
+    border-radius: 10px;
+}
+
+.hero-section {
+    background-image: url(images/almere.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.activities-section {
+    background-color: #03738e;
+    display: block;
+    margin-top: 0;
+    padding: 30px 0px;
+    color: white;
+}
+
+.top-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-txt {
+    margin-top: 0;
+}
+
+.item-section {
+    width: 300px;
+    display: block;
+    justify-content: center;
+}
+
+.image-title-txt {
+    margin-top: 5px;
+}
+
+.guide-section {
+    display: flex;
+    background-color: #fef8ce;
+
+}
+
+.duncan-img {
+    height: 200px;
+    margin-right: 10px;
+}
+
+.bussiness-card {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #d8007a;
+    color: white;
+    border-bottom: 6px solid #03738e;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
